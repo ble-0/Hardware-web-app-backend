@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Supplier Finder</title>
+
+  <!-- Google Fonts Import -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <h1>Hardware Supplier Finder</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search Suppliers</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Find the Best Suppliers for Your Constructions</h2>
+    <p>Our platform helps you easily search for suppliers based on categories and ratings. Find trusted partners today!</p>
+    <button class="cta-btn">Start Searching</button>
+  </section>
+
+  <!-- Search Suppliers Section -->
+  <section class="search-suppliers">
+    <h2>Search Suppliers</h2>
+    <form class="search-form" action="searchResults.html" method="GET">
+      <label for="category">Category</label>
+      <select id="category" name="category">
+        <option value="concrete">Concrete</option>
+        <option value="door hardware">Door hardware</option>
+        <option value="metal">Metal</option>
+        <option value="brick">Brick</option>
+        <option value="cabinet hardware">Cabinet hardware</option>
+        <option value="plumbing hardware">Plumbing hardware</option>
+        <option value="power supply">Power supply</option>
+        <option value="aluminum hardware">Aluminum hardware</option>
+      </select>
+
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" placeholder="Enter location">
+
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 Supplier Finder. All rights reserved.</p>
+    <div>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </div>
+  </footer>
+
+  <!-- Script (Optional) -->
+  <script src="script.js"></script>
+</body>
+</html>
